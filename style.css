@@ -137,12 +137,6 @@ ul {
     /* ------------------------------------------------------------------ */
 /*---------------------------------- ABOUTS ------------------------------------*/
     /* ------------------------------------------------------------------ */
-.about-section {
-    display:grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 50px;
-}
-
 .about-section .intro {
     color: #273c75;
     width: 70%;
@@ -202,7 +196,7 @@ ul {
 .product-section .product-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 4%;
     width: 90%;
     margin: auto;
     margin-top: 100px;
@@ -336,6 +330,11 @@ blockquote::before {
 
 .contact {
     margin: auto;
+    margin-top: 10px;
+}
+
+.contact li {
+    margin-bottom: 15px;
 }
 .contact-icon {
     display: flex;
@@ -366,7 +365,7 @@ blockquote::before {
 }
 
 .input-comment textarea {
-    height: 200px;
+    height: 100px;
 }
 
 .input-comment input, textarea{
